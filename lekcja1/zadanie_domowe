@@ -1,0 +1,12 @@
+Zadanie domowe: napisz program, w którym wczytasz imiona domowników, i wypiszesz krótki opis wczytanych rzeczy. 
+Przykład działania:
+
+Jak sie nazywasz?
+Wojtek
+Ile masz lat? 
+18
+Jak nazywa sie twoj tato? 
+Janusz
+Jak nazywa sie twoja mama? 
+Halinka
+Nazywasz sie Wojtek i masz 18 lat. Twoj tato ma na imie Janusz, a twoja mama Halinka. Milego dnia!
