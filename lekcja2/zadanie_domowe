@@ -1,0 +1,8 @@
+Napisz program, ktory wczyta od użytkownika pięć ocen (typu całkowitoliczbowego od 1 do 6) i wypisze na ekran średnią arytmetyczną.
+
+Przykład działania:
+Podaj nazwe przedmiotu, z ktorego chcesz wpisac swoje oceny:
+Matematyka
+Wpisz dokladnie piec ocen:
+1 4 4 5 2
+Twoja srednia z przedmiotu Matematyka wynosi 3.20
