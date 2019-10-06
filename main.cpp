@@ -4,11 +4,14 @@
 using namespace std;
 int main() {
   string name;
-  int age;
   cout << "Czesc, jak sie nazywasz?" << endl;
   cin >> name;
 
-  if (name != "Wojtek") {
-    cout << "Czesc nie-Wojtku" << endl;
+  cout << "Ile masz lat?" << endl;
+  int age;
+  cin >> age;
+
+  if (name != "Wojtek" && age < 18) {
+    cout << "Czesc nie-Wojtku, ktory jest dzieckiem" << endl;
   }
 }
