@@ -11,7 +11,13 @@ int main() {
   int age;
   cin >> age;
 
-  if (name != "Wojtek" && age < 18) {
-    cout << "Czesc nie-Wojtku, ktory jest dzieckiem" << endl;
+  /* &&
+     ||
+   */
+
+  if (name == "Wojtek" || name == "Piotrek" || name == "Dominik" || name == "Maciej") {
+    if (age >= 18) {
+      cout << "Czesc, my sie przeciez znamy, jestes dorosly!" << endl;
+    }
   }
 }
