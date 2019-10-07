@@ -7,17 +7,13 @@ int main() {
   cout << "Czesc, jak sie nazywasz?" << endl;
   cin >> name;
 
-  cout << "Ile masz lat?" << endl;
-  int age;
-  cin >> age;
-
-  /* &&
-     ||
-   */
-
-  if (name == "Wojtek" || name == "Piotrek" || name == "Dominik" || name == "Maciej") {
+  if (int age = 0; name == "Wojtek" || name == "Piotrek" || name == "Dominik" || name == "Maciej") {
+    cout << "Ile masz lat?" << endl;
+    cin >> age;
     if (age >= 18) {
       cout << "Czesc, my sie przeciez znamy, jestes dorosly!" << endl;
     }
+  } else {
+    cout << "Wiek: " << age << endl;
   }
 }
