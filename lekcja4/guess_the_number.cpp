@@ -5,10 +5,8 @@
 using namespace std;
 
 int dice_number(int lower, int upper) {
-  std::random_device rd;                                // obtain a random number from hardware
-  std::mt19937 eng(rd());                               // seed the generator
-  std::uniform_int_distribution<> distr(lower, upper);  // define the range
-  return distr(eng);
+  static std::random_device rd;
+  return std::uniform_int_distribution<>{lower, upper}(rd);
 }
 
 int main() {
