@@ -11,7 +11,7 @@ double read_coefficient(char name) {
 
 bool is_zero(double number) {
   double epsilon = 0.000001;
-  return std::abs(epsilon) < epsilon;
+  return std::abs(number) < epsilon;
 }
 
 double calculate_delta(double a, double b, double c) {
